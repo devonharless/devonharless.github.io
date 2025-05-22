@@ -274,42 +274,6 @@ video.height {
   background:var(--accent)
 }
 @font-face {
-  font-family:Hauss;
-  src:url(fonts/Hauss-Bold.woff2)format("woff2 supports variations"),
-  url(fonts/Hauss-Bold.woff2)format("woff2-variations"),
-  url(fonts/Hauss-Bold.woff2)format("woff2");
-  font-weight:700;
-  font-style:normal;
-  font-display:block
-}
-@font-face {
-  font-family:Lock Serif;
-  src:url(fonts/LockSerif-Light.woff2)format("woff2 supports variations"),
-  url(fonts/LockSerif-Light.woff2)format("woff2-variations"),
-  url(fonts/LockSerif-Light.woff2)format("woff2");
-  font-weight:300;
-  font-style:normal;
-  font-display:block
-}
-@font-face {
-  font-family:PP Pangaia;
-  src:url(fonts/PPPangaia-UltralightItalic.woff2)format("woff2 supports variations"),
-  url(fonts/PPPangaia-UltralightItalic.woff2)format("woff2-variations"),
-  url(fonts/PPPangaia-UltralightItalic.woff2)format("woff2");
-  font-weight:300;
-  font-style:italic;
-  font-display:block
-}
-@font-face {
-  font-family:Sharp Roman;
-  src:url(fonts/SharpRoman-Roman.woff2)format("woff2 supports variations"),
-  url(fonts/SharpRoman-Roman.woff2)format("woff2-variations"),
-  url(fonts/SharpRoman-Roman.woff2)format("woff2");
-  font-weight:400;
-  font-style:normal;
-  font-display:block
-}
-@font-face {
   font-family:Inter;
   src:url(fonts/Inter-Regular.woff2)format("woff2");
   font-weight:400;
@@ -1766,7 +1730,6 @@ video.height {
 .h2,
 .h3 {
   letter-spacing:-.04em;
-  /* font-family:Lock Serif,serif; */
   font-family: Inter;
   font-style:normal;
   font-weight:300;
@@ -1776,7 +1739,6 @@ video.height {
 .h2 strong,
 .h3 strong {
   letter-spacing:-.02em;
-  /* font-family:Hauss,sans-serif; */
   font-family: Inter;
   font-style:normal;
   font-weight:700
@@ -1785,7 +1747,6 @@ video.height {
 .h2 em,
 .h3 em {
   letter-spacing:-.02em;
-  /* font-family:PP Pangaia,serif; */
   font-family: Inter;
   font-style:italic;
   font-weight:300
@@ -1794,7 +1755,6 @@ video.height {
 .h2 u,
 .h3 u {
   letter-spacing:-.045em;
-  /* font-family:Sharp Roman,serif; */
   font-family: Inter;
   font-style:normal;
   font-weight:400
@@ -1856,7 +1816,6 @@ video.height {
 .h5,
 .h6 {
   letter-spacing:-.02em;
-  /* font-family:Hauss,sans-serif; */
   font-family: Inter;
   font-style:normal;
   font-weight:700;
@@ -2009,7 +1968,7 @@ p.small {
   color:var(--accent)
 }
 .lede--link a {
-  font-family:Hauss,sans-serif;
+  font-family:Inter,sans-serif;
   font-style:normal;
   font-weight:700;
   font-size:clamp(18px,var(--base)*3,48px);
@@ -2045,8 +2004,7 @@ p.small {
   line-height:1.5
 }
 .stats__number {
-  /* font-family:Hauss,sans-serif; */
-  font-family:Hauss,sans-serif;
+  font-family:Inter,sans-serif;
   font-style:normal;
   font-weight:700;
   font-size:clamp(60px,var(--base)*12,160px);
@@ -2508,33 +2466,4 @@ p.small {
   width:100%;
   display:block;
   position:relative
-}
-@media (hover:hover) {
-  .hover-emoji .hover-me:hover {
-    cursor:url(/images/emoji/emoji-me.png)24 24,auto
-  }
-  .hover-emoji .hover-taco:hover {
-    cursor:url(/images/emoji/emoji-taco.png)24 24,auto
-  }
-  .hover-emoji .hover-castle:hover {
-    cursor:url(/images/emoji/emoji-castle.png)24 24,auto
-  }
-  .hover-emoji .hover-football:hover {
-    cursor:url(/images/emoji/emoji-football.png)24 24,auto
-  }
-  .hover-emoji .hover-empathy:hover {
-    cursor:url(/images/emoji/emoji-empathy.png)24 24,auto
-  }
-  .hover-emoji .hover-detail:hover {
-    cursor:url(/images/emoji/emoji-detail.png)24 24,auto
-  }
-  .hover-emoji .hover-design:hover {
-    cursor:url(/images/emoji/emoji-design.png)24 24,auto
-  }
-  .hover-emoji .hover-code:hover {
-    cursor:url(/images/emoji/emoji-code.png)24 24,auto
-  }
-  .hover-emoji .hover-word:hover {
-    cursor:url(/images/emoji/emoji-word.png)24 24,auto
-  }
 }
